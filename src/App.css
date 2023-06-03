@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+
+
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: 'League Spartan', sans-serif;
+
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    
+.d {
+
+  Lightgray: hsl(0, 0%, 90%);
+  Grayishred : hsl(0, 5%, 81%);
+  Verylightgray: hsl(0, 0%, 93%);
+  
+  
+  Darkmoderatecyan : hsl(185, 42%, 37%);
+  Verydarkcyan: hsl(185, 58%, 25%);
+
+  Orange: hsl(25, 98%, 40%);
+  Darkorange : hsl(25, 99%, 27%);
+
+  Lightgrayishyellow : hsl(45, 7%, 89%);
+  Darkgrayishorange: hsl(35, 11%, 61%);
+  
+  
+  Verydarkgrayishyellow: hsl(60, 10%, 19%);
+  White: hsl(0, 0%, 100%);
+}
